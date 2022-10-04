@@ -11,6 +11,15 @@ E gere um relatório em CSV, dos navios que estão ativa, contendo o nome do nav
 Os CSV pode ser apenas apresentado no terminal, sem gerar nenhum arquivo.
 
 ---
+## Campos Requisitados
+
+- Apenas navios ativos
+- Nome do navio
+- Missão atual do navio
+
+    - Premissas sobre as missões: 
+        - O retorno é um Array de missões, portanto foi considerado que a última posição do array era a missão atual do navio.
+
 
 ## Executando o script
 
