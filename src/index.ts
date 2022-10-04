@@ -43,6 +43,7 @@ async function main() {
         let csv = 'Status,Ship-Name,Mission'
 
         console.log('Writing data into CSV...')
+
         for (const ship of ships) {
             if (ship.active) {
                 const shipMission = ship.missions.at(-1)?.name
@@ -57,12 +58,10 @@ async function main() {
         console.table(csv)
 
         // Write CSV File manually
-        // require("fs").writeFileSync("test.csv", csv)
+        // require("fs").writeFileSync("ships-report.csv", csv)
 
     } catch (error) {
         console.error(`Error fetching data from ${url}`)
     }
-
-
 }
 main()
