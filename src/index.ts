@@ -53,7 +53,7 @@ async function main() {
         }
 
         console.log('Data processed successfully...')
-        
+
         // Console Data
         console.table(csv)
 
