@@ -42,7 +42,10 @@ Caso queiram essa alteração só é necessário comentar o Console Data e "desc
 ```
 
 ### Fontes de pesquisa
+ - https://graphql.org/learn/
  - https://code-boxx.com/write-csv-nodejs/
  - https://hasura.io/blog/how-to-request-a-graphql-api-with-fetch-or-axios/
+ - https://stackoverflow.com/questions/52816623/graphql-post-request-in-axios
+ 
 
 
