@@ -18,8 +18,8 @@ interface SpaceXResponse {
 }
 
 async function main() {
-    const url: string = 'https://api.spacex.land/graphql'
-    const query: string = `{
+    const url = 'https://api.spacex.land/graphql'
+    const query = `{
       ships {
         active
         name
